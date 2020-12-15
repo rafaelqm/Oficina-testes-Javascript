@@ -7,6 +7,15 @@ Este repositório não tem todas as respostas para fazer isso. Mas pode te ajuda
 
 Tenha em mente que esta oficina vai demonstrar como preparar uma receita básica. Assim como o ato de cozinhar e preparar alimentos, a prática leva a excelência. 
 
+
+## Docker ready
+Para evitar instalar o node na versão 12 (12.18.4), existe um arquivo docker-compose.yml,
+então, apenas subir o container com o comando abaixo.
+
+```
+docker-compose run --rm --service-ports dev
+```
+
 ⚠️**Por favor: não tenha a expectativa de sair da oficina sendo _expert_ na abordagem de testes, mas tente sair motivada a incorporar esta pratica no seu dia a dia.**
 
 ### Receitas do dia:
